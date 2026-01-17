@@ -1,15 +1,15 @@
 {
-  "Apps category": "Finding products apps",
-  "apps_url": "https://apps.shopify.com/categories/finding-products?surface_detail=navbar-categories&surface_type=navbar",
-  "description": "Stock your store with products (dropshipping, print-on-demand, wholesale).",
-  "Recommended products": "WSH Order Form & ReOrder",
-  "products_url": "https://apps.shopify.com/single-page-order-form",
-  "Product_description": "Help your wholesale customers order faster than ever.\n\nWith a single-page wholesale order form, buyers can quickly add multiple products, adjust qu...",
-  "Price": "Free plan",
+  "Apps category": "Sales channels",
+  "apps_url": "https://apps.shopify.com/categories/sales-channels?surface_detail=navbar-categories&surface_type=navbar",
+  "description": "Sync products with marketplaces, sell on channels, expand distribution.",
+  "Recommended products": "LE ‑ Store Migration & Import",
+  "products_url": "https://apps.shopify.com/litextension-shopify-migration-app",
+  "Product_description": "Migrate Shopify store data with 3 simple steps, using Store Migration app. Import products, orders, customers, pages in bulk from any eCom platforms to Shopify",
+  "Price": "Free to install",
   "rating": 4.8,
-  "reviews_count": 107,
-  "developer_name": "Wholesale Helper",
-  "developer_website": "https://apps.shopify.com/partners/goldj",
+  "reviews_count": 271,
+  "developer_name": "LitExtension",
+  "developer_website": "https://apps.shopify.com/partners/litextension7",
   "reviews_source": "shopify_app_store",
-  "reviews_scraped_at": "2026-01-17T16:04:48.824346Z"
+  "reviews_scraped_at": "2026-01-17T19:21:56.920800Z"
 }

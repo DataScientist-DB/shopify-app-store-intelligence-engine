@@ -1,7 +1,7 @@
 {
-  "Apps category": "Finding products apps",
-  "apps_url": "https://apps.shopify.com/categories/finding-products?surface_detail=navbar-categories&surface_type=navbar",
-  "description": "Stock your store with products (dropshipping, print-on-demand, wholesale).",
+  "Apps category": "Sales channels",
+  "apps_url": "https://apps.shopify.com/categories/sales-channels?surface_detail=navbar-categories&surface_type=navbar",
+  "description": "Sync products with marketplaces, sell on channels, expand distribution.",
   "Recommended products": "Learn moreOpens in new window",
   "products_url": "https://apps.shopify.com/stories",
   "Product_description": "Shopify App Store: customize your online store and grow your business with Shopify-approved apps for marketing, store design, fulfillment, and more.",
@@ -11,5 +11,5 @@
   "developer_name": null,
   "developer_website": null,
   "reviews_source": "shopify_app_store",
-  "reviews_scraped_at": "2026-01-17T16:04:16.131663Z"
+  "reviews_scraped_at": "2026-01-17T19:21:25.104944Z"
 }

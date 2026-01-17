@@ -1,0 +1,33 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Shopify App Store Intelligence Engine — Outputs",
+  "description": "Main downloadable outputs produced by this Actor.",
+  "type": "object",
+  "properties": {
+    "dataset": {
+      "title": "Dataset (primary output)",
+      "description": "Each scraped app is stored as one dataset item.",
+      "type": "string",
+      "template": "{{links.dataset}}"
+    },
+    "csv": {
+      "title": "CSV export (Key-Value Store)",
+      "description": "Combined CSV file saved by the Actor.",
+      "type": "string",
+      "template": "{{links.keyValueStore}}"
+    },
+    "xlsx": {
+      "title": "XLSX export (Key-Value Store)",
+      "description": "Combined Excel file saved by the Actor.",
+      "type": "string",
+      "template": "{{links.keyValueStore}}"
+    },
+    "runSummary": {
+      "title": "Run summary (JSON)",
+      "description": "RUN_SUMMARY.json saved to Key-Value Store.",
+      "type": "string",
+      "template": "{{links.keyValueStore}}"
+    }
+  },
+  "required": ["dataset"]
+}

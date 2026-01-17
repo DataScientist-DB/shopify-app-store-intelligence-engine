@@ -1,15 +1,15 @@
 {
-  "Apps category": "Finding products apps",
-  "apps_url": "https://apps.shopify.com/categories/finding-products?surface_detail=navbar-categories&surface_type=navbar",
-  "description": "Stock your store with products (dropshipping, print-on-demand, wholesale).",
-  "Recommended products": "Avada Order Limits Quantity",
-  "products_url": "https://apps.shopify.com/avada-order-limit",
-  "Product_description": "Top Order Limits Shopify App - Manage quantities effectively to ensure products reach the right customers, prevent fraud/ block bulk purchases by single buyers",
+  "Apps category": "Sales channels",
+  "apps_url": "https://apps.shopify.com/categories/sales-channels?surface_detail=navbar-categories&surface_type=navbar",
+  "description": "Sync products with marketplaces, sell on channels, expand distribution.",
+  "Recommended products": "syncX: Stock Sync",
+  "products_url": "https://apps.shopify.com/stock-sync",
+  "Product_description": "Automate products & inventory import from any suppliers in any format. Stock Sync supports multiple connections and file formats.",
   "Price": "Free plan",
-  "rating": 4.9,
-  "reviews_count": 234,
-  "developer_name": "Avada",
-  "developer_website": "https://apps.shopify.com/partners/avada",
+  "rating": 4.7,
+  "reviews_count": 831,
+  "developer_name": "SyncX",
+  "developer_website": "https://apps.shopify.com/partners/syncx",
   "reviews_source": "shopify_app_store",
-  "reviews_scraped_at": "2026-01-17T16:04:40.562256Z"
+  "reviews_scraped_at": "2026-01-17T19:21:48.637836Z"
 }

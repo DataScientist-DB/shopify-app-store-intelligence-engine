@@ -1,15 +1,15 @@
 {
-  "Apps category": "Finding products apps",
-  "apps_url": "https://apps.shopify.com/categories/finding-products?surface_detail=navbar-categories&surface_type=navbar",
-  "description": "Stock your store with products (dropshipping, print-on-demand, wholesale).",
-  "Recommended products": "KOR Order Limits Quantity",
-  "products_url": "https://apps.shopify.com/purchase-limit",
-  "Product_description": "Set min max order limits by product, collection, customer tag, weight, or amount. Limit purchase quantity on checkout to protect inventory. Includes low stock.",
+  "Apps category": "Sales channels",
+  "apps_url": "https://apps.shopify.com/categories/sales-channels?surface_detail=navbar-categories&surface_type=navbar",
+  "description": "Sync products with marketplaces, sell on channels, expand distribution.",
+  "Recommended products": "Flexify: Facebook Product Feed",
+  "products_url": "https://apps.shopify.com/facebook-product-catalog",
+  "Product_description": "Flexify can replace Shopify’s own Facebook & Instagram Sales Channel, or it can be used as an extension to it.\n\nFlexify combines dozens of flexible...",
   "Price": "Free plan",
-  "rating": 4.5,
-  "reviews_count": 132,
-  "developer_name": "MageComp",
-  "developer_website": "https://apps.shopify.com/partners/themagecomp",
+  "rating": 4.0,
+  "reviews_count": 139,
+  "developer_name": "Flexify AG",
+  "developer_website": "https://apps.shopify.com/partners/flexify",
   "reviews_source": "shopify_app_store",
-  "reviews_scraped_at": "2026-01-17T16:04:23.146127Z"
+  "reviews_scraped_at": "2026-01-17T19:21:32.091768Z"
 }

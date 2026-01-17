@@ -1,15 +1,15 @@
 {
-  "Apps category": "Finding products apps",
-  "apps_url": "https://apps.shopify.com/categories/finding-products?surface_detail=navbar-categories&surface_type=navbar",
-  "description": "Stock your store with products (dropshipping, print-on-demand, wholesale).",
-  "Recommended products": "Easy Wholesale Lock for B2B",
-  "products_url": "https://apps.shopify.com/easylockdown",
-  "Product_description": "Lock or hide products, collections, and prices. Locks wholesale pages or specific pages on your store with a few simple clicks.",
+  "Apps category": "Sales channels",
+  "apps_url": "https://apps.shopify.com/categories/sales-channels?surface_detail=navbar-categories&surface_type=navbar",
+  "description": "Sync products with marketplaces, sell on channels, expand distribution.",
+  "Recommended products": "Etsy Integration ‑ DPL",
+  "products_url": "https://apps.shopify.com/etsy-integration-sync",
+  "Product_description": "Shopify Etsy Integration app - Best way to sync your online Shopify store with Etsy Store. Product, Order, Inventory sync between Shopify and Etsy",
   "Price": "Free to install",
-  "rating": 4.4,
-  "reviews_count": 216,
-  "developer_name": "Easy Lockdown Inc",
-  "developer_website": "https://apps.shopify.com/partners/easy-lockdown-inc",
+  "rating": 4.9,
+  "reviews_count": 708,
+  "developer_name": "Digital Product Labs",
+  "developer_website": "https://apps.shopify.com/partners/digital-product-labs",
   "reviews_source": "shopify_app_store",
-  "reviews_scraped_at": "2026-01-17T16:04:31.796509Z"
+  "reviews_scraped_at": "2026-01-17T19:21:40.467958Z"
 }
