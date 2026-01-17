@@ -1,0 +1,36 @@
+{
+  "timestamp": "20260117_200330",
+  "categories_selected": [
+    "Finding products apps"
+  ],
+  "limits": {
+    "max_categories": 2,
+    "products_per_category": 10
+  },
+  "browser": {
+    "headless_effective": true
+  },
+  "dedupe": {
+    "skipped_duplicates": 0
+  },
+  "pushed_to_dataset": 10,
+  "per_category": [
+    {
+      "category": "Finding products apps",
+      "items_exported": 10,
+      "csv": "OUTPUT_finding-products-apps_20260117_200330.csv",
+      "xlsx": "OUTPUT_finding-products-apps_20260117_200330.xlsx"
+    }
+  ],
+  "combined": {
+    "items_exported": 10,
+    "csv": "OUTPUT_20260117_200330.csv",
+    "xlsx": "OUTPUT_20260117_200330.xlsx"
+  },
+  "files_generated": [
+    "OUTPUT_finding-products-apps_20260117_200330.csv",
+    "OUTPUT_finding-products-apps_20260117_200330.xlsx",
+    "OUTPUT_20260117_200330.csv",
+    "OUTPUT_20260117_200330.xlsx"
+  ]
+}

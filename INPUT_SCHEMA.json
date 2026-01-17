@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "title": "Shopify App Store Scraper & Intelligence Engine — Input"
+,
+  "description": "Choose which Shopify categories to scrape and how many items per category.",
+  "type": "object",
+  "properties": {
+    "headless": {
+      "title": "Headless (forced on Apify)",
+      "type": "boolean",
+      "description": "On the Apify platform, headless is always forced to true (no GUI display is available).",
+      "default": true,
+      "editor": "checkbox"
+    },
+
+    "shopify": {
+      "title": "Shopify config",
+      "description": "Select categories and configure Shopify scraping.",
+      "type": "object",
+      "properties": {
+        "nav_config_path": {
+          "title": "Nav config path",
+          "type": "string",
+          "description": "Path to the navigation config JSON inside the Actor (usually keep default).",
+          "default": "config/shopify_nav.json",
+          "editor": "textfield"
+        },
+
+        "selected_categories": {
+          "title": "Categories to scrape (by number)",
+          "type": "array",
+          "description": "Enter category numbers from the list below. If you leave this empty, the Actor will scrape the FIRST maxCategories categories.\n\nCategory list:\n1) Sales channels\n2) Selling products apps\n3) Store design apps\n4) Store management apps\n5) Finding products apps\n6) Orders and shipping apps\n7) Marketing and conversion apps",
+          "items": { "type": "integer" },
+          "default": [1],
+          "editor": "array"
+        },
+
+        "products_per_category": {
+          "title": "Products/apps per category",
+          "type": "integer",
+          "description": "Maximum number of products/apps to collect from each category page.",
+          "default": 5,
+          "minimum": 1,
+          "editor": "number"
+        }
+      },
+      "default": {
+        "nav_config_path": "config/shopify_nav.json",
+        "products_per_category": 5,
+        "selected_categories": [1]
+      }
+    },
+
+    "limits": {
+      "title": "Limits",
+      "description": "Safety limits for scraping volume.",
+      "type": "object",
+      "properties": {
+        "maxCategories": {
+          "title": "Max categories (quantity cap)",
+          "type": "integer",
+          "description": "Maximum number of categories to scrape in this run. Example: 3 means only 3 categories will be processed.\nTip: If selected_categories has more than this number, only the first maxCategories will be used.\nSet 0 for no limit (not recommended).",
+          "default": 1,
+          "minimum": 0,
+          "editor": "number"
+        },
+
+        "max_categories": {
+          "title": "Max categories (legacy key)",
+          "type": "integer",
+          "description": "Legacy alias for maxCategories. Keep empty unless you need backward compatibility.",
+          "default": 0,
+          "minimum": 0,
+          "editor": "number"
+        },
+
+        "products_per_category": {
+          "title": "Products per category (legacy/alias)",
+          "type": "integer",
+          "description": "Optional alias. Prefer Shopify config: shopify.products_per_category.",
+          "default": 0,
+          "minimum": 0,
+          "editor": "number"
+        },
+
+        "max_apps_total": {
+          "title": "Max apps total",
+          "type": "integer",
+          "description": "Stop after this many total apps across all categories (0 = no limit).",
+          "default": 0,
+          "minimum": 0,
+          "editor": "number"
+        }
+      },
+      "default": {
+        "maxCategories": 1,
+        "max_apps_total": 0
+      }
+    },
+
+    "output": {
+      "title": "Output options",
+      "description": "Control export format.",
+      "type": "object",
+      "properties": {
+        "exportCsv": {
+          "title": "Export CSV",
+          "type": "boolean",
+          "description": "Write CSV to the Key-Value Store.",
+          "default": true,
+          "editor": "checkbox"
+        },
+        "exportXlsx": {
+          "title": "Export XLSX",
+          "type": "boolean",
+          "description": "Write XLSX to the Key-Value Store.",
+          "default": true,
+          "editor": "checkbox"
+        }
+      },
+      "default": {
+        "exportCsv": true,
+        "exportXlsx": true
+      }
+    },
+
+    "proxySettings": {
+      "title": "Proxy configuration",
+      "description": "Apify proxy settings (recommended for stability).",
+      "type": "object",
+      "editor": "proxy",
+      "default": {}
+    }
+  },
+  "required": []
+}

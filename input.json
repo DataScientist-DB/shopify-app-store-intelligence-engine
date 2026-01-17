@@ -1,0 +1,19 @@
+{
+  "headless": true,
+  "limits": {
+    "maxCategories": 1,
+    "max_apps_total": 0
+  },
+  "shopify": {
+    "nav_config_path": "config/shopify_nav.json",
+    "products_per_category": 10,
+    "selected_categories": [5]
+  },
+  "output": {
+    "exportCsv": true,
+    "exportXlsx": true
+  },
+  "proxySettings": {
+    "useApifyProxy": true
+  }
+}

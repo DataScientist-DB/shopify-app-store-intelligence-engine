@@ -1,0 +1,5 @@
+{
+  "nav_config_path": "config/shopify_nav.json",
+  "products_per_category": 5,
+  "selected_categories": []
+}

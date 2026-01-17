@@ -1,0 +1,90 @@
+{
+  "timestamp": "20260117_190636",
+  "categories_selected": [
+    "Sales channels",
+    "Selling products apps",
+    "Store design apps",
+    "Store management apps",
+    "Finding products apps",
+    "Orders and shipping apps",
+    "Marketing and conversion apps"
+  ],
+  "limits": {
+    "max_categories": 7,
+    "products_per_category": 4
+  },
+  "browser": {
+    "headless_effective": true
+  },
+  "dedupe": {
+    "skipped_duplicates": 9
+  },
+  "pushed_to_dataset": 19,
+  "per_category": [
+    {
+      "category": "Sales channels",
+      "items_exported": 4,
+      "csv": "OUTPUT_sales-channels_20260117_190636.csv",
+      "xlsx": "OUTPUT_sales-channels_20260117_190636.xlsx"
+    },
+    {
+      "category": "Selling products apps",
+      "items_exported": 3,
+      "csv": "OUTPUT_selling-products-apps_20260117_190636.csv",
+      "xlsx": "OUTPUT_selling-products-apps_20260117_190636.xlsx"
+    },
+    {
+      "category": "Store design apps",
+      "items_exported": 3,
+      "csv": "OUTPUT_store-design-apps_20260117_190636.csv",
+      "xlsx": "OUTPUT_store-design-apps_20260117_190636.xlsx"
+    },
+    {
+      "category": "Store management apps",
+      "items_exported": 3,
+      "csv": "OUTPUT_store-management-apps_20260117_190636.csv",
+      "xlsx": "OUTPUT_store-management-apps_20260117_190636.xlsx"
+    },
+    {
+      "category": "Finding products apps",
+      "items_exported": 2,
+      "csv": "OUTPUT_finding-products-apps_20260117_190636.csv",
+      "xlsx": "OUTPUT_finding-products-apps_20260117_190636.xlsx"
+    },
+    {
+      "category": "Orders and shipping apps",
+      "items_exported": 2,
+      "csv": "OUTPUT_orders-and-shipping-apps_20260117_190636.csv",
+      "xlsx": "OUTPUT_orders-and-shipping-apps_20260117_190636.xlsx"
+    },
+    {
+      "category": "Marketing and conversion apps",
+      "items_exported": 2,
+      "csv": "OUTPUT_marketing-and-conversion-apps_20260117_190636.csv",
+      "xlsx": "OUTPUT_marketing-and-conversion-apps_20260117_190636.xlsx"
+    }
+  ],
+  "combined": {
+    "items_exported": 19,
+    "csv": "OUTPUT_20260117_190636.csv",
+    "xlsx": "OUTPUT_20260117_190636.xlsx"
+  },
+  "files_generated": [
+    "OUTPUT_sales-channels_20260117_190636.csv",
+    "OUTPUT_sales-channels_20260117_190636.xlsx",
+    "OUTPUT_selling-products-apps_20260117_190636.csv",
+    "OUTPUT_selling-products-apps_20260117_190636.xlsx",
+    "OUTPUT_store-design-apps_20260117_190636.csv",
+    "OUTPUT_store-design-apps_20260117_190636.xlsx",
+    "OUTPUT_store-management-apps_20260117_190636.csv",
+    "OUTPUT_store-management-apps_20260117_190636.xlsx",
+    "OUTPUT_finding-products-apps_20260117_190636.csv",
+    "OUTPUT_finding-products-apps_20260117_190636.xlsx",
+    "OUTPUT_orders-and-shipping-apps_20260117_190636.csv",
+    "OUTPUT_orders-and-shipping-apps_20260117_190636.xlsx",
+    "OUTPUT_marketing-and-conversion-apps_20260117_190636.csv",
+    "OUTPUT_marketing-and-conversion-apps_20260117_190636.xlsx",
+    "OUTPUT_20260117_190636.csv",
+    "OUTPUT_20260117_190636.xlsx"
+  ]
+}

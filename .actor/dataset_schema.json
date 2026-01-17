@@ -1,0 +1,30 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Shopify Apps",
+      "transformation": {
+        "fields": [
+          "name",
+          "developer",
+          "category",
+          "rating",
+          "reviews_count",
+          "pricing_model",
+          "price_from",
+          "app_url",
+          "scraped_at"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "rating": { "label": "Rating", "format": "number" },
+          "reviews_count": { "label": "Reviews", "format": "number" },
+          "price_from": { "label": "From ($/mo)", "format": "number" }
+        }
+      }
+    }
+  }
+}

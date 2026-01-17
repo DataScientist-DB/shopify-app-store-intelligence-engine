@@ -1,0 +1,14 @@
+{
+  "categories": [
+    { "name": "Sales channels", "url": "https://apps.shopify.com/categories/sales-channels?surface_detail=navbar-categories&surface_type=navbar", "description": "Sync products with marketplaces, sell on channels, expand distribution." },
+    { "name": "Selling products apps", "url": "https://apps.shopify.com/categories/selling-products?surface_detail=navbar-categories&surface_type=navbar", "description": "More kinds of products, more ways to pay (custom products, digital goods/services, payments, pricing)." },
+    { "name": "Store design apps", "url": "https://apps.shopify.com/categories/store-design?surface_detail=navbar-categories&surface_type=navbar", "description": "Tailor your storefront (content, design elements, images/media, product display, etc.)." },
+    { "name": "Store management apps", "url": "https://apps.shopify.com/categories/store-management?surface_detail=navbar-categories&surface_type=navbar", "description": "Optimize operations and support (finances, operations, security, customer support)." },
+    { "name": "Finding products apps", "url": "https://apps.shopify.com/categories/finding-products?surface_detail=navbar-categories&surface_type=navbar", "description": "Stock your store with products (dropshipping, print-on-demand, wholesale)." },
+    { "name": "Orders and shipping apps", "url": "https://apps.shopify.com/categories/orders-and-shipping?surface_detail=navbar-categories&surface_type=navbar", "description": "From checkout to delivery (inventory, orders, returns/warranty, shipping solutions)." },
+    { "name": "Marketing and conversion apps", "url": "https://apps.shopify.com/categories/marketing-and-conversion?surface_detail=navbar-categories&surface_type=navbar", "description": "Acquire, convert, retain (ads, checkout, loyalty, gifts, promotions, social proof, upsell/bundles)." }
+  ],
+  "selected_categories": [],
+  "products_per_category": 2,
+  "headless": false
+}

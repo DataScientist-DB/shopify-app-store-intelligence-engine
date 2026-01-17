@@ -1,0 +1,9 @@
+{
+  "headless": true,
+  "shopify": {
+    "nav_config_path": "config/shopify_nav.json",
+    "products_per_category": 30,
+    "selected_categories": [],
+    "max_categories": 0
+  }
+}

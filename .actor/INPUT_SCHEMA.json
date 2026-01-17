@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "title": "G2 Marketplace Engine — Input",
+  "description": "Configuration for the Actor run.",
+  "type": "object",
+  "properties": {
+    "shopify": {
+      "title": "Shopify config",
+      "description": "Shopify engine configuration.",
+      "type": "object",
+      "editor": "json",
+      "default": {
+        "nav_config_path": "config/shopify_nav.json",
+        "products_per_category": 5,
+        "selected_categories": []
+      }
+    },
+    "limits": {
+      "title": "Limits",
+      "description": "Safety limits for scraping volume and pagination.",
+      "type": "object",
+      "editor": "json",
+      "properties": {
+        "max_categories": {
+          "title": "Max categories",
+          "type": "integer",
+          "description": "How many categories to scrape (0 = no limit).",
+          "default": 1,
+          "minimum": 0,
+          "editor": "number"
+        },
+        "products_per_category": {
+          "title": "Products per category",
+          "type": "integer",
+          "description": "Max products/apps per category.",
+          "default": 10,
+          "minimum": 1,
+          "editor": "number"
+        },
+        "max_apps_total": {
+          "title": "Max apps total",
+          "type": "integer",
+          "description": "Stop after this many total apps (0 = no limit).",
+          "default": 0,
+          "minimum": 0,
+          "editor": "number"
+        }
+      },
+      "default": {
+        "max_categories": 1,
+        "products_per_category": 10,
+        "max_apps_total": 0
+      }
+    },
+    "output": {
+      "title": "Output options",
+      "description": "Control export format and dataset behavior.",
+      "type": "object",
+      "editor": "json",
+      "properties": {
+        "exportCsv": {
+          "title": "Export CSV",
+          "type": "boolean",
+          "description": "Write OUTPUT.csv to the Key-Value Store.",
+          "default": true,
+          "editor": "checkbox"
+        },
+        "exportXlsx": {
+          "title": "Export XLSX",
+          "type": "boolean",
+          "description": "Write OUTPUT.xlsx to the Key-Value Store.",
+          "default": true,
+          "editor": "checkbox"
+        },
+        "csvKey": {
+          "title": "CSV key",
+          "type": "string",
+          "description": "Key name for the CSV file in the Key-Value Store.",
+          "default": "OUTPUT.csv",
+          "editor": "textfield"
+        },
+        "xlsxKey": {
+          "title": "XLSX key",
+          "type": "string",
+          "description": "Key name for the XLSX file in the Key-Value Store.",
+          "default": "OUTPUT.xlsx",
+          "editor": "textfield"
+        }
+      },
+      "default": {
+        "exportCsv": true,
+        "exportXlsx": true,
+        "csvKey": "OUTPUT.csv",
+        "xlsxKey": "OUTPUT.xlsx"
+      }
+    },
+    "proxySettings": {
+      "title": "Proxy configuration",
+      "description": "Apify proxy settings (recommended for stability).",
+      "type": "object",
+      "editor": "proxy",
+      "default": {}
+    }
+  },
+  "required": []
+}

@@ -1,0 +1,9 @@
+{
+  "enable_reputation": true,
+  "mode": "detect",
+  "sources": ["trustpilot"],
+  "trustpilot_domains": [
+    "mailchimp.com",
+    "zendesk.com"
+  ]
+}
