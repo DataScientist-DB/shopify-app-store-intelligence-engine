@@ -1,9 +1,51 @@
 {
   "actorSpecification": 1,
   "name": "shopify-app-store-intelligence-engine",
+  "title": "Shopify App Store Intelligence Engine",
   "version": "0.1",
   "buildTag": "latest",
   "dockerfile": "./Dockerfile",
   "input": "./INPUT_SCHEMA.json",
-  "output": "./OUTPUT_SCHEMA.json"
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Shopify Apps",
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "transformation": {
+            "fields": [
+              "Apps category",
+              "apps_url",
+              "description",
+              "Recommended products",
+              "products_url",
+              "Product_description",
+              "Price",
+              "rating",
+              "reviews_count",
+              "developer_name",
+              "developer_website",
+              "reviews_scraped_at"
+            ]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "Apps category": { "label": "Category", "format": "text" },
+              "apps_url": { "label": "Category URL", "format": "link" },
+              "Recommended products": { "label": "App name", "format": "text" },
+              "products_url": { "label": "App URL", "format": "link" },
+              "Price": { "label": "Price", "format": "text" },
+              "rating": { "label": "Rating", "format": "number" },
+              "reviews_count": { "label": "Reviews", "format": "number" },
+              "developer_name": { "label": "Developer", "format": "text" },
+              "developer_website": { "label": "Developer page", "format": "link" },
+              "reviews_scraped_at": { "label": "Scraped at", "format": "datetime" }
+            }
+          }
+        }
+      }
+    }
+  }
 }
