@@ -3,26 +3,34 @@
   "fields": {},
   "views": {
     "overview": {
-      "title": "Shopify Apps",
+      "title": "Shopify App Store results",
       "transformation": {
         "fields": [
-          "name",
-          "developer",
-          "category",
+          "Apps category",
+          "Recommended products",
+          "products_url",
+          "Price",
           "rating",
           "reviews_count",
-          "pricing_model",
-          "price_from",
-          "app_url",
-          "scraped_at"
+          "developer_name",
+          "developer_website",
+          "apps_url",
+          "reviews_scraped_at"
         ]
       },
       "display": {
         "component": "table",
         "properties": {
+          "Apps category": { "label": "Category" },
+          "Recommended products": { "label": "App name" },
+          "products_url": { "label": "App URL" },
+          "Price": { "label": "Pricing" },
           "rating": { "label": "Rating", "format": "number" },
           "reviews_count": { "label": "Reviews", "format": "number" },
-          "price_from": { "label": "From ($/mo)", "format": "number" }
+          "developer_name": { "label": "Developer" },
+          "developer_website": { "label": "Developer URL" },
+          "apps_url": { "label": "Category URL" },
+          "reviews_scraped_at": { "label": "Scraped at", "format": "date" }
         }
       }
     }
